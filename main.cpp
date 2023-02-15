@@ -12,9 +12,9 @@ int main() {
 
     cout << "The sum of numbers in the vector is: " << sum << "\n";
 
-    float average = get_average(numbers);
+    int min = get_min(numbers);
 
-    cout << "The average of numbers in the vector is: " << average << "\n";
+    cout << "The min of numbers in the vector is: " << min << "\n";
     
     return 0;
 }
