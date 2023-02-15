@@ -12,15 +12,11 @@ int get_sum(vector<int> numbers) {
     return sum;
 }
 
-int get_min(vector<int> numbers) {
-    int min = numbers[0];
-
-    for (int i = 1; i < numbers.size(); ++i) {
-        if (numbers[i] < min) {
-            min = numbers[i];
-        }
+float get_average(vector<int> numbers) {
+    int sum = 0;
+    for (int i = 0; i < numbers.size(); i++) {
+        sum += numbers[i];
     }
-
-    return min;
+    return (float)sum / numbers.size();
 }
 
