@@ -11,6 +11,6 @@ int main() {
     int sum = get_sum(numbers);
 
     cout << "The sum of numbers in the vector is: " << sum << "\n";
-
+    
     return 0;
 }
