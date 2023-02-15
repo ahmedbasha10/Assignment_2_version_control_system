@@ -2,13 +2,11 @@
 
 using namespace std;
 
-int getSum(vector<int> numbers) {
+int getSum(vector<int> v) {
     int sum = 0;
-    
-    for (int i = 0; i < numbers.size(); i++) {
-        sum += numbers[i];
+    for (int i = 0; i < v.size(); i++) {
+        sum += v[i];
     }
-
-    return (float)sum / numbers.size();
+    return sum;
 }
 

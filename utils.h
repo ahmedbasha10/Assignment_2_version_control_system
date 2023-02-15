@@ -8,9 +8,4 @@ using namespace std;
 int get_sum(vector<int> numbers);
 
 
-int get_min(vector<int> numbers);
-
-
-int get_min(vector<int> numbers);
-
 #endif
