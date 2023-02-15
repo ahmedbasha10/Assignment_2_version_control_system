@@ -19,3 +19,4 @@ float get_average(vector<int> numbers) {
 
     return (float)sum / numbers.size();
 }
+
