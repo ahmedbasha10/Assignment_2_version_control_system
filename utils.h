@@ -1,5 +1,5 @@
-#ifndef SUM_H
-#define SUM_H
+#ifndef UTILS_H
+#define UTILS_H
 
 #include <vector>
 
