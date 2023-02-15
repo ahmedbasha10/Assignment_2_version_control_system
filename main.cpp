@@ -15,10 +15,6 @@ int main() {
     float average = get_average(numbers);
 
     cout << "The average of numbers in the vector is: " << average << "\n";
-
-    int min = get_min(numbers);
-
-    cout << "The min of numbers in the vector is: " << min << "\n";
     
     return 0;
 }
