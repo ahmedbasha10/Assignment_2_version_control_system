@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int getSum(vector<int> v) {
+int get_sum(vector<int> v) {
     int sum = 0;
     for (int i = 0; i < v.size(); i++) {
         sum += v[i];
@@ -19,4 +19,3 @@ float get_average(vector<int> numbers) {
 
     return (float)sum / numbers.size();
 }
-
