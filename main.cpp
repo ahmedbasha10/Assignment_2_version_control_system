@@ -12,6 +12,7 @@ int main() {
 
     cout << "The sum of numbers in the vector is: " << sum << "\n";
 
+    
     int min = get_min(numbers);
 
     cout << "The min of numbers in the vector is: " << min << "\n";
