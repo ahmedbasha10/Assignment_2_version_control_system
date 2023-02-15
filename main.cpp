@@ -11,6 +11,10 @@ int main() {
     int sum = get_sum(numbers);
 
     cout << "The sum of numbers in the vector is: " << sum << "\n";
+
+    int min = get_average(numbers);
+
+    cout << "The min of numbers in the vector is: " << min << "\n";
     
     return 0;
 }
