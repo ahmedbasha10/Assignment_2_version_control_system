@@ -14,7 +14,7 @@ int main() {
 
     int min = get_min(numbers);
 
-    cout << "The min of numbers in the vector is: " << min << "\n";
-
+    cout << "The average of numbers in the vector is: " << average << "\n";
+    
     return 0;
 }

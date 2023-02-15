@@ -12,16 +12,3 @@ int getSum(vector<int> numbers) {
     return (float)sum / numbers.size();
 }
 
-
-int get_min(vector<int> numbers) {
-    int min = numbers[0];
-    for (int i = 1; i < numbers.size(); i++) {
-        if (numbers[i] < min) {
-            min = numbers[i];
-        }
-    }
-    return min;
-}
-
-
-
