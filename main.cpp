@@ -1,28 +1,16 @@
 #include <iostream>
 #include <vector>
-#include "utils.h";
+#include "utilities.h"
+
 
 using namespace std;
 
 int main() {
 
-    vector<int> numbers = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
-
+    vector<int> numbers{1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+    
     int sum = get_sum(numbers);
+    cout << "sum of numbers in the vector is: " << sum << "\n";
 
-    cout << "The sum of numbers in the vector is: " << sum << "\n";
-
-
-    float average = get_average(numbers);
-    
-    cout << "The average of numbers in the vector is: " << average << "\n";
-
-    
-    int min = get_min(numbers);
-
-    cout << "The min of numbers in the vector is: " << min << "\n";
-
-    
-    
     return 0;
 }
